@@ -1,8 +1,13 @@
 package dataTypes;
-// 변수를 설정할 때 메모리를 가장 아껴쓸 수 있는 자료형을 선택할 수 있다.
+/* 기본형과 참조형
+: 기본형 변수는 실제 값(data)을 저장하는 반면, 참조형 변수는 어떤 값이 저장되어 있는 주소(memory address)를 값으로 갖는다.
+기본형(primitive type) : 논리형(boolean), 문자형(char), 정수형(byte, short, int, long), 실수형(float, double) 모두 8개
+계산을 위한 실제 값을 저장한다.
+참조형(reference type) : 객체의 주소를 저장한다. 8개 기본형을 제외한 나머지 타입.
+ */
 class IntType {
     public static void main(String[] args){
-
+//기본형 변수를 설정할 때 메모리를 가장 아껴쓸 수 있는 자료형을 선택할 수 있다.
         int firstNumber = 5;
         int secondNumber = 12;
         int thirdNumber = 35;

@@ -1,6 +1,6 @@
 package array;
 //다차원배열
-class multiDArray {
+class multiArrayFor {
     public static void main(String[] args){
         int[][] myNumbers = {{1,2,3,4}, {5,6,7}};
         int x = myNumbers[1][2];
@@ -14,6 +14,13 @@ class multiDArray {
             for (int k=0; k<myNumbers[i].length; k++){
                 System.out.println("myNumbers["+i+"]["+k+"] = "+myNumbers[i][k]);
             }
+        }
+        //중첩 for문
+        for (int i=1; i<=5; i++){
+            for(int j=1; j<=i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
         }
 
     }
