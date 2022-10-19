@@ -1,6 +1,6 @@
 package array;
 /* 배열: 같은 타입의 여러 변수를 하나의 묶음으로 다루는 것.
- */
+조금 바꿈 */
 class ArrayEx {
     public static void main(String[] args){
 /*배열 선언 방법: 배열임을 의미하는 대괄호[]를 타입 뒤에 붙여도 되고 변수 이름 뒤에 붙여도 된다.
