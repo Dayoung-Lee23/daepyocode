@@ -2,7 +2,10 @@ package array;
 //다차원배열
 class multiArrayFor {
     public static void main(String[] args){
-        int[][] myNumbers = {{1,2,3,4}, {5,6,7}};
+/*2차원 배열을 선언하는 방식은 1차원과 같고 다만 []가 하나 더 들어간다. (차원 수만큼 [] 추가)
+2차원배열은 주로 테이블 형식 int[][] score = new int[4][3]; -> 4행 3열
+ */
+        int[][] myNumbers = {{1,2,3,4}, {5,6,7}};//{}앞에 new int[][]가 생략됨
         int x = myNumbers[1][2];
         int z = myNumbers[0][2];
         System.out.println(x);
