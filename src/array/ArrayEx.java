@@ -31,8 +31,8 @@ int[] score = new int[5]; 배열 선언과 생성을 동시에. (길이가 5인 
         //while문을 이용한 배열 출력
         String[] myFam = {"Gauthier", "Daughter", "Son"};
 //배열 초기화 방식 ex) int[] score = new int[]{50, 60, 70, 80, 90}; new int[]는 생략할 수 있다.
-        int t =0;
-        while(t<myFam.length){ //while의 조건문에는 변수 t를 지역적으로 정의할 수 없으므로 밖에서 선언 및 초기화 해주어야 한다.
+        int t =0; //while의 조건문에는 변수 t를 지역적으로 정의할 수 없으므로 밖에서 선언 및 초기화 해주어야 한다.
+        while(t<myFam.length){
             System.out.println(myFam[t]);
             t++;
         }
