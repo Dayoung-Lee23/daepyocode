@@ -24,7 +24,7 @@ public class Main {
             //artist에 저장된 끝까지 for문을 돌리새요
             System.out.println("ID = "+i.getId()+", Name = "+i.getName());
         }
-
+// meto
         datasource.close();
     }
 }
